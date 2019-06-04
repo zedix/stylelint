@@ -3,7 +3,9 @@ const propertyOrder = require('./property-order');
 module.exports = {
   extends: [
     // https://github.com/stylelint/stylelint-config-standard
-    'stylelint-config-standard',
+    // 'stylelint-config-standard',
+    // https://github.com/primer/stylelint-config-primer
+    'stylelint-config-primer',
   ],
 
   plugins: ['stylelint-order'],
@@ -18,7 +20,7 @@ module.exports = {
           'first-nested',
         ],
         ignore: ['after-comment', 'inside-block'],
-        ignoreAtRules: ['apply', 'screen', 'font-face', 'nest'],
+        ignoreAtRules: ['apply', 'screen', 'font-face', 'nest', 'tailwind'],
       },
     ],
     // https://github.com/tailwindcss/discuss/issues/111#issuecomment-497282508

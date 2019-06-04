@@ -16,6 +16,7 @@
     "stylelint"
   ],
   "devDependencies": {
-    "@zedix/prettier-config": "zedix/prettier-config#v1.0.0"
+    "@zedix/prettier-config": "zedix/prettier-config#v1.0.0",
+    "stylelint-config-primer": "^7.0.0"
   }
 }
