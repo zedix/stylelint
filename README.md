@@ -13,7 +13,9 @@ Edit `package.json`:
 
 ```json
 {
-  // ...
-  "stylelint": "@zedix/stylelint-config"
+  // …
+  "stylelint": {
+    "extends": "@zedix/stylelint-config"
+  },
 }
 ```
