@@ -3,9 +3,7 @@ const propertyOrder = require('./property-order');
 module.exports = {
   extends: [
     // https://github.com/stylelint/stylelint-config-standard
-    // 'stylelint-config-standard',
-    // https://github.com/primer/stylelint-config-primer
-    'stylelint-config-primer',
+    'stylelint-config-standard',
   ],
 
   plugins: ['stylelint-order'],
@@ -44,5 +42,6 @@ module.exports = {
     ],
     'order/properties-order': propertyOrder,
     'selector-nested-pattern': '^&',
+    'value-list-comma-newline-after': false,
   },
 };
