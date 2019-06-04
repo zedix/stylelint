@@ -7,7 +7,7 @@
   "main": "index.js",
   "dependencies": {
     "stylelint": "^10.0.1",
-    "stylelint-config-standard": "^18.3.0",
+    "stylelint-config-primer": "^7.0.0",
     "stylelint-order": "^3.0.0"
   },
   "prettier": "@zedix/prettier-config",
@@ -16,7 +16,6 @@
     "stylelint"
   ],
   "devDependencies": {
-    "@zedix/prettier-config": "zedix/prettier-config#v1.0.0",
-    "stylelint-config-primer": "^7.0.0"
+    "@zedix/prettier-config": "zedix/prettier-config#v1.0.0"
   }
 }
