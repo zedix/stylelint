@@ -1,0 +1,16 @@
+.DS_Store
+
+# Dependencies
+node_modules
+
+# Logs
+*.log
+
+# Nuxt build
+.nuxt
+posts.json
+
+# Nuxt generate
+dist
+
+sw.*

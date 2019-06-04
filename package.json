@@ -1,0 +1,20 @@
+{
+  "name": "@zedix/stylelint-config",
+  "version": "1.0.0",
+  "description": "@zedix's stylelint shareable config",
+  "author": "@zedix",
+  "copyright": "Copyright (c) 2019-present",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint": "^10.0.1",
+    "stylelint-order": "^3.0.0"
+  },
+  "prettier": "@zedix/prettier-config",
+  "keywords": [
+    "stylelint-config",
+    "stylelint"
+  ],
+  "devDependencies": {
+    "@zedix/prettier-config": "zedix/prettier-config#v1.0.0"
+  }
+}
