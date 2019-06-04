@@ -34,14 +34,14 @@ module.exports = {
         ],
       },
     ],
+    'declaration-colon-newline-after': null,
     'property-no-unknown': [
       true,
       {
-        ignoreProperties: ['font-path'],
+        ignoreProperties: ['font-path', 'text-fill-color'],
       },
     ],
     'order/properties-order': propertyOrder,
     'selector-nested-pattern': '^&',
-    'value-list-comma-newline-after': false,
   },
 };
