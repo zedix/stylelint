@@ -1,6 +1,6 @@
 {
   "name": "@zedix/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "@zedix's stylelint shareable config",
   "author": "@zedix",
   "copyright": "Copyright (c) 2019-present",

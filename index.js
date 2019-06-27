@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     // https://github.com/stylelint/stylelint-config-standard
     'stylelint-config-standard',
+    // 'stylelint-config-recommended'
   ],
 
   plugins: ['stylelint-order'],
